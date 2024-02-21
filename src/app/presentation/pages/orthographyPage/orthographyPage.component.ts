@@ -20,7 +20,7 @@ import { ChatMessageComponent, MyMessageComponent, TextMessageBoxComponent, Text
 export default class OrthographyPageComponent {
 
   handleMessage(prompt: string) {
-    console.log( {prompt} );
+    console.log({prompt});
   }
 
   handleMessageWithFile( {prompt, file}: TextMessageEvent ) {
